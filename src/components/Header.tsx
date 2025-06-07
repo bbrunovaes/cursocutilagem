@@ -26,18 +26,6 @@ export const Header = () => {
             Curso
           </button>
           <button 
-            onClick={() => scrollToSection('sobre')}
-            className="text-gray-600 hover:text-primary transition-colors"
-          >
-            Sobre
-          </button>
-          <button 
-            onClick={() => scrollToSection('depoimentos')}
-            className="text-gray-600 hover:text-primary transition-colors"
-          >
-            Depoimentos
-          </button>
-          <button 
             onClick={() => scrollToSection('preco')}
             className="text-gray-600 hover:text-primary transition-colors"
           >
@@ -54,4 +42,3 @@ export const Header = () => {
       </div>
     </header>
   );
-};

@@ -41,18 +41,6 @@ export const Footer = () => {
                 Sobre o Curso
               </button>
               <button 
-                onClick={() => scrollToSection('sobre')}
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Sobre a Faby
-              </button>
-              <button 
-                onClick={() => scrollToSection('depoimentos')}
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Depoimentos
-              </button>
-              <button 
                 onClick={() => scrollToSection('preco')}
                 className="block text-gray-400 hover:text-white transition-colors"
               >
