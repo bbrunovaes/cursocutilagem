@@ -1,7 +1,6 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, Users, PlayCircle, Download, Certificate, Infinity } from "lucide-react";
+import { Clock, Users, PlayCircle, Download, Award, Infinity } from "lucide-react";
 
 export const CourseDetails = () => {
   const modules = [
@@ -35,7 +34,7 @@ export const CourseDetails = () => {
     { icon: Clock, text: "8+ horas de conteúdo exclusivo" },
     { icon: PlayCircle, text: "36 vídeo-aulas em alta definição" },
     { icon: Download, text: "Material de apoio para download" },
-    { icon: Certificate, text: "Certificado de conclusão" },
+    { icon: Award, text: "Certificado de conclusão" },
     { icon: Infinity, text: "Acesso vitalício ao curso" },
     { icon: Users, text: "Grupo VIP de alunas no WhatsApp" }
   ];
