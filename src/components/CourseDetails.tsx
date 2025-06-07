@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Users, PlayCircle, Download, Award, Infinity } from "lucide-react";
@@ -5,37 +6,49 @@ import { Clock, Users, PlayCircle, Download, Award, Infinity } from "lucide-reac
 export const CourseDetails = () => {
   const modules = [
     {
-      title: "Módulo 1: Fundamentos da Cutilagem",
-      duration: "2h 30min",
-      lessons: 8,
-      topics: ["Anatomia das unhas", "Ferramentas essenciais", "Técnicas de higienização", "Preparação da cutícula"]
-    },
-    {
-      title: "Módulo 2: Técnicas Avançadas",
-      duration: "3h 15min",
-      lessons: 12,
-      topics: ["Cutilagem russa", "Técnicas de precisão", "Tratamento de cutículas problemáticas", "Acabamento profissional"]
-    },
-    {
-      title: "Módulo 3: Prática e Aperfeiçoamento",
-      duration: "2h 45min",
+      title: "Preparação das Mãos e dos Pés",
+      duration: "3h 30min",
       lessons: 10,
-      topics: ["Casos práticos", "Correção de erros", "Velocidade e eficiência", "Atendimento ao cliente"]
+      topics: ["Higienização adequada", "Técnicas de preparação", "Ferramentas essenciais", "Cuidados básicos"]
     },
     {
-      title: "Módulo 4: Negócios e Marketing",
-      duration: "1h 30min",
+      title: "Lixamento e Polimento da Unha",
+      duration: "2h 45min",
+      lessons: 8,
+      topics: ["Técnicas de lixamento", "Polimento profissional", "Escolha das lixas", "Formato perfeito"]
+    },
+    {
+      title: "Cutilagem Perfeita, Fundinha e Corte Bordado",
+      duration: "4h 15min",
+      lessons: 15,
+      topics: ["Cutilagem russa", "Técnica fundinha", "Corte bordado", "Acabamento profissional"]
+    },
+    {
+      title: "Francesinhas e Decorações Especiais",
+      duration: "3h 45min",
+      lessons: 12,
+      topics: ["Francesinhas simples", "Formato sorriso", "Degradê", "Gravatinha"]
+    },
+    {
+      title: "Esmaltação e Acabamento",
+      duration: "2h 30min",
+      lessons: 9,
+      topics: ["Esmalte nude sem manchas", "Correção de borrados", "Adesivos artesanais", "Técnicas avançadas"]
+    },
+    {
+      title: "Esfoliação dos Pés e Muito Mais",
+      duration: "1h 15min",
       lessons: 6,
-      topics: ["Precificação", "Marketing digital", "Fidelização de clientes", "Crescimento profissional"]
+      topics: ["Esfoliação profissional", "Cuidados especiais", "Hidratação", "Dicas extras"]
     }
   ];
 
   const benefits = [
-    { icon: Clock, text: "8+ horas de conteúdo exclusivo" },
-    { icon: PlayCircle, text: "36 vídeo-aulas em alta definição" },
+    { icon: Clock, text: "15 horas de conteúdo exclusivo" },
+    { icon: PlayCircle, text: "60 vídeo-aulas em alta definição" },
     { icon: Download, text: "Material de apoio para download" },
-    { icon: Award, text: "Certificado de conclusão" },
-    { icon: Infinity, text: "Acesso vitalício ao curso" },
+    { icon: Award, text: "98% de avaliações positivas" },
+    { icon: Infinity, text: "Garantia de 7 dias" },
     { icon: Users, text: "Grupo VIP de alunas no WhatsApp" }
   ];
 
@@ -45,11 +58,11 @@ export const CourseDetails = () => {
         <div className="text-center mb-16 animate-fade-in">
           <Badge className="bg-primary/10 text-primary mb-4">Conteúdo do Curso</Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Tudo que você precisa para se tornar
-            <span className="gradient-text"> especialista em cutilagem</span>
+            Curso de especialização em cutilagem para
+            <span className="gradient-text"> manicure e pedicure</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Um curso completo e prático que vai te ensinar desde os fundamentos até as técnicas mais avançadas da cutilagem profissional.
+            Válido para iniciantes e manicures com dificuldades ou em busca de aperfeiçoamento na profissão!
           </p>
         </div>
 
