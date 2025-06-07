@@ -11,7 +11,7 @@ export const CTA = () => {
 
   return (
     <section className="py-20 bg-gradient-to-br from-pink-500 via-pink-600 to-pink-700 text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width=%2260%22%20height=%2260%22%20viewBox=%220%200%2060%2060%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20fill=%22none%22%20fill-rule=%22evenodd%22%3E%3Cg%20fill=%22%23ffffff%22%20fill-opacity=%220.1%22%3E%3Ccircle%20cx=%227%22%20cy=%227%22%20r=%227%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%2523ffffff%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%227%22%20r%3D%227%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12 animate-fade-in">
@@ -20,9 +20,6 @@ export const CTA = () => {
             <br />
             <span className="text-yellow-300">agora!</span>
           </h2>
-          <p className="text-xl lg:text-2xl text-pink-100 max-w-3xl mx-auto leading-relaxed">
-            Não deixe essa oportunidade passar. Transforme sua vida profissional e financeira hoje mesmo.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -45,8 +42,8 @@ export const CTA = () => {
           <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-center">
             <CardContent className="p-6">
               <TrendingUp className="w-12 h-12 text-yellow-300 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">ROI Garantido</h3>
-              <p className="text-pink-100">Investimento se paga em menos de 1 mês de trabalho</p>
+              <h3 className="text-xl font-semibold mb-2">Acesso Imediato</h3>
+              <p className="text-pink-100">Comece a aprender hoje mesmo após a confirmação do pagamento</p>
             </CardContent>
           </Card>
         </div>
@@ -62,7 +59,7 @@ export const CTA = () => {
           
           <div className="mt-6 text-pink-100">
             <p className="text-sm">✅ Acesso imediato após a compra</p>
-            <p className="text-sm">✅ Garantia de 30 dias ou seu dinheiro de volta</p>
+            <p className="text-sm">✅ Garantia de 7 dias</p>
             <p className="text-sm">✅ Suporte especializado incluído</p>
           </div>
         </div>
