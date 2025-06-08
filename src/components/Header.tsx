@@ -15,7 +15,6 @@ export const Header = () => {
           <div className="w-8 h-8 gradient-pink rounded-lg flex items-center justify-center">
             <Sparkles className="w-5 h-5 text-white" />
           </div>
-          <span className="font-bold text-xl gradient-text">Faby Cardoso</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
