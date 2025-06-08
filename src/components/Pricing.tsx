@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -16,6 +15,10 @@ export const Pricing = () => {
     "Suporte individualizado",
     "Garantia de 7 dias"
   ];
+
+  const openHotmartLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=1c6a', '_blank');
+  };
 
   return (
     <section id="preco" className="py-20 bg-gradient-to-b from-white to-pink-50">
@@ -58,7 +61,10 @@ export const Pricing = () => {
                   ))}
                 </div>
 
-                <Button className="w-full gradient-pink text-white hover:opacity-90 transition-opacity pulse-pink">
+                <Button 
+                  className="w-full gradient-pink text-white hover:opacity-90 transition-opacity pulse-pink"
+                  onClick={openHotmartLink}
+                >
                   Começar Agora
                 </Button>
               </CardContent>

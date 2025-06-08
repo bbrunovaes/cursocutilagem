@@ -1,10 +1,21 @@
-
 import { Sparkles, Instagram, Facebook, Youtube, Mail, Phone } from "lucide-react";
 
 export const Footer = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const openInstagramLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=36b9', '_blank');
+  };
+
+  const openFacebookLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=f666', '_blank');
+  };
+
+  const openYoutubeLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=9f1c', '_blank');
   };
 
   return (
@@ -24,9 +35,18 @@ export const Footer = () => {
               Mais de 2.500 alunas já mudaram suas carreiras conosco.
             </p>
             <div className="flex space-x-4">
-              <Instagram className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
-              <Facebook className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
-              <Youtube className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
+              <Instagram 
+                className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors" 
+                onClick={openInstagramLink}
+              />
+              <Facebook 
+                className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors"
+                onClick={openFacebookLink}
+              />
+              <Youtube 
+                className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer transition-colors"
+                onClick={openYoutubeLink}
+              />
             </div>
           </div>
 

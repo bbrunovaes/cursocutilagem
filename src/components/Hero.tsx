@@ -8,6 +8,14 @@ export const Hero = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const openDemoLink = () => {
+    window.open('https://drive.google.com/file/d/1laXsoM__6dGPkpgu9h2XnwFq4dKgnrWi/view?usp=drive_link', '_blank');
+  };
+
+  const openHotmartLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=1c6a', '_blank');
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 via-white to-pink-50 pt-16">
       <div className="container mx-auto px-4 py-20">
@@ -45,7 +53,7 @@ export const Hero = () => {
               <Button 
                 size="lg" 
                 className="gradient-pink text-white hover:opacity-90 transition-opacity pulse-pink"
-                onClick={scrollToPrice}
+                onClick={openHotmartLink}
               >
                 Começar Agora
               </Button>
@@ -53,6 +61,7 @@ export const Hero = () => {
                 size="lg" 
                 variant="outline" 
                 className="border-primary text-primary hover:bg-primary hover:text-white"
+                onClick={openDemoLink}
               >
                 <Play className="w-5 h-5 mr-2" />
                 Ver Demonstração

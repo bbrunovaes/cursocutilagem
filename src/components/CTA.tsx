@@ -1,12 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Clock, Users, TrendingUp } from "lucide-react";
 
 export const CTA = () => {
-  const scrollToPrice = () => {
-    const element = document.getElementById('preco');
-    element?.scrollIntoView({ behavior: 'smooth' });
+  const openHotmartLink = () => {
+    window.open('https://go.hotmart.com/V100100631Q?ap=1c6a', '_blank');
   };
 
   return (
@@ -52,7 +50,7 @@ export const CTA = () => {
           <Button 
             size="lg" 
             className="bg-white text-pink-600 hover:bg-gray-100 font-bold px-12 py-6 text-xl rounded-full shadow-2xl hover:shadow-3xl transition-all transform hover:scale-105 pulse-pink"
-            onClick={scrollToPrice}
+            onClick={openHotmartLink}
           >
             Garantir Minha Vaga Agora
           </Button>
